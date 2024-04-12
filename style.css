@@ -1,0 +1,38 @@
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: Courier New;
+}
+
+a {
+    color: #0ff;
+}
+
+a:hover, a:active {
+    color: #0f0;
+}
+
+.keep-nl {
+    white-space: pre-wrap;
+}
+
+canvas {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.canvas-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 10px;
+}
+
+.play-rest {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 10px;
+    right: 510px;
+}

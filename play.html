@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Ouroboros King: Play</title>
+        <link href="style.css" rel="stylesheet" type="text/css" />
+        <link rel="icon" type="image/x-icon" href="/favicon.png" />
+    </head>
+    <body>
+        <div class="play-rest">
+            <h1>Ouroboros King: Play</h1>
+            <a href="/index.html">Home</a><br/>
+            <label for="seed">Seed:</label>
+            <input type="text" id="seed"></input>
+            <p id="description" class="keep-nl"></p>
+        </div>
+        <div class="canvas-container">
+            <canvas id="canvas"
+                width="500" height="500"></canvas>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/seedrandom/2.3.10/seedrandom.min.js"></script>
+        <script src="patches.js"></script>
+        <script src="load.js"></script>
+        <script src="draw.js"></script>
+        <script src="events.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
