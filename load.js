@@ -127,7 +127,7 @@ for (let [key, names] of [
 ]) {
     for (let name of names) {
         let img = document.createElement("img");
-        img.src = `../images/${key}/${name}.png`;
+        img.src = `https://kinuthedragon.github.io/OuroKing/images/${key}/${name}.png`;
         images[key][name] = img;
     }
 }
@@ -135,7 +135,7 @@ for (let [key, names] of [
 for (let pieceName of pieceNames) {
     for (let color of ["black", "white"]) {
         let img = document.createElement("img");
-        img.src = `../images/pieces/${color}/${pieceName}.png`;
+        img.src = `https://kinuthedragon.github.io/OuroKing/images/pieces/${color}/${pieceName}.png`;
         images.pieces[color][pieceName] = img;
     }
 }
